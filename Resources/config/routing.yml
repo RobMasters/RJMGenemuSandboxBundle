@@ -1,0 +1,3 @@
+rjm_genemu_sandbox_homepage:
+    pattern:  /
+    defaults: { _controller: RJMGenemuSandboxBundle:Default:index }
