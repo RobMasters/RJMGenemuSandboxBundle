@@ -14,7 +14,7 @@
 
     "require": {
         "php": ">=5.3.2",
-        "genemu/form-bundle": "dev-master",
+        "genemu/form-bundle": "2.1.x-dev",
         "doctrine/doctrine-fixtures-bundle": "dev-master"
     },
 
