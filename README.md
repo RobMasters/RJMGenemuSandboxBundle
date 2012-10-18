@@ -1,6 +1,6 @@
 # RJMGenemuSandboxBundle
 
-This bundle provides a sandbox to showcase how to use various Form Types provided by the [GenemuFormBundle]
+This bundle provides a sandbox to showcase how to use various Form Types provided by the [GenemuFormBundle](https://github.com/genemu/GenemuFormBundle)
 
 ## Installation
 
