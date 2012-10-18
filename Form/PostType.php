@@ -15,8 +15,15 @@ class PostType extends AbstractType
             ->add('body')
             ->add('publishedAt')
             ->add('active')
-            ->add('author')
-            ->add('category')
+            ->add('author', 'genemu_jqueryselect2_entity', array(
+                'class' => 'RJM\Bundle\GenemuSandboxBundle\Entity\Author',
+                'property' => 'username',
+            ))
+
+            ->add('category', 'genemu_jqueryselect2_entity', array(
+                'class' => 'RJM\Bundle\GenemuSandboxBundle\Entity\Category',
+                'property' => 'name',
+            ))
         ;
     }
 
